@@ -1,0 +1,26 @@
+.conteiner{
+    background-image: url(1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+    color:darkseagreen;
+    padding:35px;
+
+}
+
+img {
+    width: 200px;
+    margin: 20px;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+}
